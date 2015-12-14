@@ -5,12 +5,29 @@ body{
 
 h1,h2{
   color: #034769;
+  text-align:center;
 }
 
 h3{
   color: #235079;
 }
 
+.section1{
+  height: 430px;
+}
+
+.section2{
+  background-color:#E6EFF2;
+  
+  padding-top: 20px;
+  height: 410px;
+}
+
+.section_title{
+  color: #034769;
+
+  font-size: 120%;
+}
 
 #wrapper {
   width: 960px;
@@ -20,7 +37,7 @@ h3{
 
 .banner{
   background-image: url("banner.jpg");
-  height: 450px;
+  height: 430px;
   background-repeat: no-repeat;
   color: white; 
   padding-left: 100px;
@@ -48,10 +65,23 @@ h3{
   clear: both;
 }
 
+.callout {
+  width: 260px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
 #menu li{
   display: inline;
 }
 
 #menu{
   margin-top: 10px;
+}
+
+.name{
+  margin-right: 10px;
+  margin-top: 20px;
+
 }
