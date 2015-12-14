@@ -11,31 +11,47 @@ h3{
   color: #235079;
 }
 
+
 #wrapper {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#banner{
-  background-image: url("banner2.jpg")
-  height: 500px;
+.banner{
+  background-image: url("banner.jpg");
+  height: 450px;
   background-repeat: no-repeat;
+  color: white; 
+  padding-left: 100px;
+  padding-top: 75px;
 }
 
+.hero{
+  font-size: 45pt;
+}
 
+#hero_sub{
+  font-size: 20pt;
+  color: #e8e8e8;
+}  
+  
 .float_left{
-	float: left;
+  float: left;
 }
 
 .float_right{
-	float: right;
+  float: right;
 }
 
 .clear{
-	clear: both;
+  clear: both;
 }
 
 #menu li{
-	display: inline;
+  display: inline;
+}
+
+#menu{
+  margin-top: 10px;
 }
